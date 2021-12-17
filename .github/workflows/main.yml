@@ -20,9 +20,3 @@ jobs:
         with:
           push: true
           tags: os2021/java-hello-world-from-github-actions:latest
-
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
